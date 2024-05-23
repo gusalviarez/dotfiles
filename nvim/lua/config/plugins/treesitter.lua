@@ -11,6 +11,7 @@ return {
     ensure_installed = {
       "typescript",
       "tsx",
+      "http",
       "lua",
       "python",
       "cpp",
