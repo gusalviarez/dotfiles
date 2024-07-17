@@ -28,7 +28,7 @@ local options = {
   signcolumn = "yes",                      -- always show the sign column, otherwise it would shift the text each time
   wrap = true,                            -- display lines as one long line
   cmdheight = 0,
-  linebreak = true,
+  linebreak = true
 }
 
 vim.opt.shortmess:append "c"
