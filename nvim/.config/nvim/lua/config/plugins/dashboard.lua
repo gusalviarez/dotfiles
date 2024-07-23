@@ -60,8 +60,8 @@ return {
           },
         },
         packages = { enable = false }, -- show how many plugins neovim loaded
-        project = { enable = true, limit = 5, icon = 'Current Project', label = '', action = 'Telescope find_files cwd=' },
-        mru = { limit = 8, icon = 'Recent', label = '', cwd_only = false },
+        project = { enable = true, limit = 5, icon = 'Recent Projects', label = '', action = 'Telescope find_files cwd=' },
+        mru = { limit = 8, icon = 'Recent Files', label = '', cwd_only = false },
         footer = {}, -- footer
       },
     })
